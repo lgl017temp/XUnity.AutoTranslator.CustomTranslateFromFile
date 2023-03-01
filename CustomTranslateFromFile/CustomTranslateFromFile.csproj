@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Configurations>Debug;Release;tt</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="XUnity.AutoTranslator.Plugin.Core">
+      <HintPath>..\..\..\Developer\XUnity.AutoTranslator.Plugin.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="XUnity.AutoTranslator.Plugin.ExtProtocol">
+      <HintPath>..\..\..\Developer\XUnity.AutoTranslator.Plugin.ExtProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="XUnity.Common">
+      <HintPath>..\..\..\Developer\XUnity.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="XUnity.ResourceRedirector">
+      <HintPath>..\..\..\Developer\XUnity.ResourceRedirector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
